@@ -1,0 +1,34 @@
+{
+  "name": "tabby-discord-presence",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence for Tabby Terminal",
+  "main": "dist/index.js",
+  "tabby": {
+    "title": "Discord Rich Presence",
+    "description": "Shows your Tabby activity in Discord",
+    "icon": "🎮",
+    "author": "Your Name",
+    "homepage": "https://github.com/yourusername/tabby-discord-presence",
+    "version": "1.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabby",
+    "discord",
+    "rich-presence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
