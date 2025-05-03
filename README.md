@@ -36,4 +36,4 @@ You can customize the presence details by modifying the `updatePresence` method 
 
 ## License
 
-MIT 
+MIT
